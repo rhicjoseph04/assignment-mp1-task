@@ -1,0 +1,559 @@
+*html {
+
+    height: 100%;
+    box-sizing: border-box;
+
+}
+ .navbar-brand{
+
+    padding-left:5px;
+    justify-content: center;
+    align-items: center;
+ }
+
+  
+    .navbar-brand img {
+    margin-right: 100px;
+    width: 70px;
+    height: 70px;
+    padding-left: 0px;
+    margin-left: 10px;
+    justify-content: center;
+
+}
+
+ .navbar-toggler {
+    margin-left: 10px;
+    margin-top: 10px;
+ }
+
+
+
+.navbar-brand h1 span {
+    color: blue;
+    text-decoration: none;
+
+}
+
+nav .icons i:hover {
+    color: #c72092;
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+nav .logo {
+    font-size: 50px;
+    color: blueviolet;
+    margin: 5px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    padding-top: 5px;
+    position: flex;
+
+}
+
+.nav-txt ul {
+    list-style: none;
+}
+
+.nav-txt nav ul li {
+    display: inline-block;
+    margin: 5px 20px;
+    padding-bottom: 10px;
+
+}
+
+.nav-txt ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+    display: inline;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-weight: 100;
+
+}
+
+.nav-txt ul li a:hover {
+    color: red;
+}
+
+/* carousel */
+
+.carousel-inner {
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+
+.carousel-image {
+    object-fit: cover;
+    height: 600px;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+
+audio {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: blue;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+/* Style the audio controls */
+audio::-webkit-media-controls {
+    background-color: #ffffff;
+    /*Changecontrolsbackgroundcolor*/color: #333;
+    /*Changecontrolscolor*/border-radius: 8px  ;
+    -webkit-border-radius: px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    padding-bottom: 6.74 rem;
+    box-sizing: inherit;
+    background-size: cover;
+    background-color: black;
+}
+
+.accordion-header {
+    font-size: large;
+    font-weight: 80;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    margin: 0;
+    padding: 20px;
+    justify-content: center;
+}
+
+.accordion-body {
+
+    background-color: lightblue;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+    font-variant: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+
+}
+
+.accordion-item {
+
+    font-style: oblique;
+    color: black;
+    padding: 0px;
+    margin: 0;
+    font-display: center;
+    position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+
+}
+
+/*Testimonials*/
+
+.testimonials {
+    width: 100%;
+    height: 140vh;
+    padding: 25px 0;
+
+}
+
+/* Media query for mobile phones */
+@media (max-width: 768px) {
+    .testimonials {
+      padding: 20px; /* Add padding to make it more suitable for mobile view */
+      background-size: contain; /* Change to 'contain' to ensure the image fits within the container */
+      background-position: top; /* Adjust the position as needed */
+    }
+  }
+
+.testimonials h1 {
+    margin: 35px 0;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: gold;
+}
+
+.testimonials .box {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px 0;
+    background-color: white;
+}
+
+.testimonials .box .card {
+    width: 290px;
+    height: 440px;
+    box-shadow: 0 0 8px #6c14d0;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    background: goldenrod;
+    width: 300px;
+    height: 300px;
+
+
+}
+
+
+
+
+
+.testimonials .box .card .video {
+    display: fixed;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100;
+    padding-bottom: 56.25%;
+    padding-right: 0px;
+
+}
+
+.testimonials .box .card .testimonials_text .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(to right, red, #6c14d0);
+    color: blue;
+}
+
+/* Review */
+
+
+
+
+.Card h1 {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: gold;
+}
+
+
+
+.review .review_box {
+    width: 95%;
+    position: relative;
+    top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.review .profile .profile_image {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.review .profile .profile_image:hover {
+    transform: scale(1.2);
+}
+
+.review .profile_image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.review .card {
+    display: flex;
+    align-items:flex-start;
+}
+
+
+.login_form{
+width: 100%;
+height: 70vh;
+display:fixed;
+justify-content: center;
+align-items: center;
+background-image: url(boos\ gold\ boss\ toyo.jpg);
+background-size: cover;
+background-position: center;
+font-display: center;
+
+padding:0 px;
+margin: 0px;
+
+
+
+
+}
+
+
+/* Media query for mobile phones */
+@media (max-width: 768px) {
+    .login_form {
+      padding: 20px; /* Add padding to make it more suitable for mobile view */
+      background-size: contain; /* Change to 'contain' to ensure the image fits within the container */
+      background-position: top; /* Adjust the position as needed */
+    }
+  }
+
+
+
+.login_form .left img{
+width: 200px;
+overflow: hidden;
+
+}
+
+/* Media query for mobile phones */
+@media (max-width: 500px) {
+    .login_form .left img{
+      padding: 20px; /* Add padding to make it more suitable for mobile view */
+      background-size: contain; /* Change to 'contain' to ensure the image fits within the container */
+      background-position: top; /* Adjust the position as needed */
+    }
+  }
+
+.login_form .right{
+position: relative;
+top: -50px;
+left: -60px;
+padding: 50px 80px;
+}
+
+.login_form .right h1{
+font-family: prevattscriptssk;
+font-size: 40px;
+margin-bottom: 40px;
+color: gold;
+padding-top: 0;
+margin-top:0;
+}
+
+/* Media query for mobile phones */
+@media (max-width: 768px) {
+    .login_form .right h1{
+      padding: 20px; /* Add padding to make it more suitable for mobile view */
+      background-size: contain; /* Change to 'contain' to ensure the image fits within the container */
+      background-position: top; /* Adjust the position as needed */
+    }
+  }
+
+
+.login_form .right p{
+margin-bottom: 10px;
+
+}
+
+.login_form .right .user{
+border: 2px solid gold;
+border-radius: 5px;
+width: 350px;
+height: 40px;
+display: flex;
+}
+
+.login_form .right .user i{
+position: relative;
+top: 9px;
+left: 15px;
+color:gold;
+}
+
+.login_form .right .user .username{
+position: relative;
+left: 9%;
+width: 295px;
+background: none;
+outline: none;
+border: none;
+display: flex;
+font-size: 20px;
+color:white;
+}
+
+.login_form .right .password_tag{
+margin: 15px 0 5px 0;
+color:white;
+}
+
+.login_form .right .username_tag{
+    margin: 15px 0 5px 0;
+    color:white;
+    }
+
+.login_form .right .password{
+border: 2px solid gold;
+border-radius: 5px;
+width: 350px;
+height: 40px;
+display: flex;
+}
+
+.login_form .right .password i{
+position: relative;
+top: 9px;
+left: 15px;
+color: #c72092;
+}
+
+.login_form .right .password input{
+position: relative;
+left: 9%;
+width: 295px;
+background: none;
+border: none;
+outline: none;
+display: flex;
+font-size: 20px;
+}
+
+::-webkit-input-placeholder{
+color: red;
+opacity: 0.7;
+}
+
+.login_form .right .forget{
+position: relative;
+left: 60%;
+margin: 6px 0 10px 0;
+cursor: pointer;
+color: white;
+}
+
+.login_form .right button{
+width: 350px;
+color: white;
+padding: 7px 20px;
+border: none;
+border-radius: 5px;
+font-size: 20px;
+cursor: pointer;
+background: linear-gradient(to right,gold , goldenrod);
+}
+
+.login_form .right .loging_icon{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 25px;
+}
+
+.login_form .right .loging_icon a{
+width: 30px;
+height: 30px;
+margin: 0 2px;
+border-radius: 50%;
+background: #f3f3f3;
+box-shadow: 0 0 5px rgba(0,0,0,0.6);
+}
+
+.login_form .right .loging_icon img{
+width: 20px;
+margin: 5px 5px;
+}
+
+
+/*Footer*/
+
+footer {
+
+
+    background-color: goldenrod;
+   border: 0px;
+    margin: 0px;
+    padding-bottom:  0px;
+    padding-top: 20px;
+    font-size: 16pt;
+    width: 100%;
+    position: bottom;
+    display: fixed;
+    justify-content: space-between;
+    height: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+/* Default styles for larger screens */
+.container {
+margin: 20px;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+.container {
+margin: 10px;
+}
+}
+
+
